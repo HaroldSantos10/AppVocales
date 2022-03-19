@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/iVsol"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_bosque"
+    android:contextClickable="false"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="87dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="44dp"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/IB"
+        android:onClick="PlaySound_A"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417"
+        app:srcCompat="@drawable/vocal_a" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="87dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="36dp"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/IB"
+        android:onClick="PlaySound_E"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693"
+        app:srcCompat="@drawable/vocal_e" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="101dp"
+        android:layout_height="142dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/IB"
+        android:onClick="PlaySound_O"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707"
+        app:srcCompat="@drawable/vocal_o" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="100dp"
+        android:layout_height="145dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/IB"
+        android:onClick="PlaySound_U"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428"
+        app:srcCompat="@drawable/vocal_u" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="87dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="164dp"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/IB"
+        android:onClick="PlaySound_I"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.812"
+        app:srcCompat="@drawable/vocal_i" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="316dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="80dp"
+        android:autoText="false"
+        android:fontFamily="@font/bungee"
+        android:text="Las Vocales"
+        android:textAlignment="textStart"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="60sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="130dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="28dp"
+        android:clickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sol" />
+
+</android.support.constraint.ConstraintLayout>
